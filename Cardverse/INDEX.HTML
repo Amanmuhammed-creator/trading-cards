@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CardVerse - Pokémon & Soccer Cards</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-overlay">
+      <h1 class="logo">🎴 CardVerse</h1>
+      <p class="tagline">Catch 'em all. Kick 'em all. Collect 'em all.</p>
+      <nav class="main-nav">
+        <a href="#pokemon">🧢 Pokémon</a>
+        <a href="#soccer">⚽ Soccer</a>
+        <a href="#cart">🛒 Cart</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="pokemon" class="product-section pokemon-theme">
+      <h2>🔥 Pokémon Cards</h2>
+      <div class="product-grid" id="pokemon-cards"></div>
+    </section>
+
+    <section id="soccer" class="product-section soccer-theme">
+      <h2>⚽ Soccer Cards</h2>
+      <div class="product-grid" id="soccer-cards"></div>
+    </section>
+
+    <section id="cart" class="cart-section">
+      <h2>🛒 Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <button class="checkout-btn" onclick="checkout()">Checkout</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CardVerse - Gotta Collect 'Em All!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
